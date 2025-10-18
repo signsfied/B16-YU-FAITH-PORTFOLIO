@@ -6,6 +6,7 @@ body {
   color: #f2f2f2;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  animation: fadeInBody 1.5s ease forwards;
   line-height: 1.7;
 }
 
@@ -788,4 +789,5 @@ a:hover .button-text {
   41% { opacity: 0; }
   100% { opacity: 0; }
 }
+
 
