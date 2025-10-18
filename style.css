@@ -10,7 +10,6 @@ body {
   line-height: 1.7;
 }
 
-
 .big-text {
   font-size: larger;
 }
@@ -789,5 +788,12 @@ a:hover .button-text {
   41% { opacity: 0; }
   100% { opacity: 0; }
 }
+
+.scroll-fade {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+
 
 
