@@ -2,111 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Personal Space</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="page-layout">
-  <main class="page-content">
-    <header>
-      <h1>My Personal Space</h1>
-      <p class="subtitle">“A place of reflection and growth.”</p>
-      <nav>
-        <a href="ict.html" class="big-text">ICT</a>
-        <a href="ap.html" class="big-text">AP</a>
-      </nav>
-    </header>
+    <main class="page-content">
+      <header>
+        <h1>My Personal Space</h1>
+        <p class="subtitle">“A place of reflection and growth.”</p>
+        <nav>
+          <a href="ict.html" class="big-text">ICT</a>
+          <a href="ap.html" class="big-text">AP</a>
+        </nav>
+      </header>
 
-<section class="frame-row right-layout scroll-fade">
-  <div class="frame-text">
-    <h1>Website Creator</h1>
-    <p>
-      <strong>Name:</strong> Norman Jr. H. Yu<br>
-      <strong>Birthday:</strong> August 12, 2011<br>
-      <strong>Age:</strong> 14<br>
-      Follow Joji to see more.
-    </p>
+      <!-- Website Creator Section -->
+      <section class="frame-row right-layout scroll-fade">
+        <div class="frame-text">
+          <h1>Website Creator</h1>
+          <p>
+            <strong>Name:</strong> Norman Jr. H. Yu<br>
+            <strong>Birthday:</strong> August 12, 2011<br>
+            <strong>Age:</strong> 14<br>
+            Follow Joji to see more.
+          </p>
+        </div>
+        <div class="frame-image">
+          <img src="assets/photos/aboutme/me.png" alt="Photo of Norman Jr. Yu">
+          <p class="frame-caption">Taken on April 18, 2025 at the MacArthur Landing Memorial National Park.</p>
+        </div>
+      </section>
+
+      <!-- Circle of Friends Section -->
+      <section class="frame-row left-layout scroll-fade">
+        <div class="frame-image">
+          <img src="assets/photos/aboutme/cof/photo.png" alt="Circle of Friends">
+          <p class="frame-caption">The last picture of us all together before the "Great Separation". (Taken on May 28, 2023)</p>
+        </div>
+        <div class="frame-text">
+          <h2>Circle Of Friends</h2>
+          <p>I love all my friends. Without them, I wouldn't have reached something true.</p>
+
+          <!-- View Button -->
+          <a href="secondary-html-files/cof.html" class="view-button">
+            VIEW
+            <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+              <path
+                clip-rule="evenodd"
+                fill-rule="evenodd"
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 
+                   9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 
+                   000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 
+                   000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- Family Section -->
+      <section class="frame-row right-layout scroll-fade">
+        <div class="frame-text">
+          <h1>My Family</h1>
+          <p>
+            I cherish my family dearly. Even on bad days, I will never forget that they shape me to become the person I am today.
+          </p>
+        </div>
+        <div class="frame-image">
+          <img src="assets/photos/family.png" alt="Family photo">
+          <p class="frame-caption">“I am Mr. Blue!”</p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <a href="#" class="back-top">↑ Back to Top</a>
+        <p>“You are all the things that are wrong with you.” — Todd Chavez</p>
+      </footer>
+    </main>
+
+    <!-- Spotify Sidebar -->
+    <aside class="spotify-sidebar" aria-label="Now Playing sidebar">
+      <div class="spotify-album">
+        <img src="assets/albumcovers/ballads1.png" alt="Joji Album Cover">
+      </div>
+
+      <div class="spotify-song-info">
+        <h2>SLOW DANCING IN THE DARK</h2>
+        <p>Joji</p>
+      </div>
+
+      <div class="spotify-audio">
+        <audio autoplay controls loop>
+          <source src="assets/trackaudio/slowdancing.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div class="spotify-about">
+        <h4>About the Artist</h4>
+        <img src="assets/photos/aboutartist/joji.png" alt="Joji" class="artist-photo">
+        <p class="artist-name">Joji</p>
+        <p class="artist-listeners">21,223,992 monthly listeners</p>
+        <a href="likes.html" class="follow-btn">Follow</a>
+      </div>
+    </aside>
   </div>
-  <div class="frame-image">
-    <img src="assets/photos/aboutme/me.png" alt="Photo of Norman Jr. Yu">
-    <p class="frame-caption">Taken on April 18, 2025 at the MacArthur Landing Memorial National Park.</p>
-  </div>
-</section>
-
-<section class="frame-row left-layout scroll-fade">
-  <div class="frame-image">
-    <img src="assets/photos/aboutme/cof/photo.png" alt="Circle of Friends">
-    <p class="frame-caption">The last picture of us all together before the "Great Separation". (Taken on May 28, 2023)</p>
-  </div>
-  <div class="frame-text">
-    <h2>Circle Of Friends</h2>
-    <p>I love all my friends. Without them, I wouldn't have reached something true.</p>
-
- <!-- Learn More Button turned into "VIEW" button -->
-<a href="secondary html files/cof.html" class="view-button">
-  VIEW
-  <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
-    <path
-      clip-rule="evenodd"
-      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
-      fill-rule="evenodd"
-    ></path>
-  </svg>
-</a>
-
-  </div>
-</section>
-
-
-<section class="frame-row right-layout scroll-fade">
-  <div class="frame-text">
-    <h1>My Family</h1>
-    <p>
-      I cherish my family dearly. Even on bad days, I will never forget that they shape me to become the person I am today.
-    </p>
-  </div>
-  <div class="frame-image">
-    <img src="assets/photos/family.png" alt="Family photo">
-    <p class="frame-caption">“I am Mr. Blue!”</p>
-  </div>
-</section>
-
-    <footer>
-      <a href="#" class="back-top">↑ Back to Top</a>
-      <p>“You are all the things that are wrong with you.” — Todd Chavez</p>
-    </footer>
-  </main>
-
-  <!-- Spotify Sidebar -->
-  <aside class="spotify-sidebar" aria-label="Now Playing sidebar">
-    <div class="spotify-album">
-      <img src="assets/albumcovers/ballads1.png" alt="Joji Album Cover">
-    </div>
-
-    <div class="spotify-song-info">
-      <h2>SLOW DANCING IN THE DARK</h2>
-      <p>Joji</p>
-    </div>
-
-    <div class="spotify-audio">
-      <audio autoplay controls loop>
-        <source src="assets/trackaudio/slowdancing.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="spotify-about">
-      <h4>About the Artist</h4>
-      <img src="assets/photos/aboutartist/joji.png" alt="Joji" class="artist-photo">
-      <p class="artist-name">Joji</p>
-      <p class="artist-listeners">21,223,992 monthly listeners</p>
-      <a href="likes.html" class="follow-btn">Follow</a>
-    </div>
-  </aside>
-  </div>
-
 </body>
 </html>
-
